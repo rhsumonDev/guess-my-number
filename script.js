@@ -19,7 +19,7 @@ document.querySelector('.check').addEventListener('click', function (){
 
         document.querySelector('body').style.backgroundColor = '#60b347';
         document.querySelector('.footer-Name').textContent = 'you’re a genius😱😱😱😱'
-        document.querySelector('.footer-Name').style.fontSize = '27px'
+        document.querySelector('.footer-Name').style.fontSize = '25px'
         document.querySelector('.number').style.width = '30rem';
 
         if (score > highScore){
