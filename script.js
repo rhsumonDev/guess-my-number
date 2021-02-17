@@ -18,8 +18,8 @@ document.querySelector('.check').addEventListener('click', function (){
         document.querySelector('.number').textContent = secretNumber;
 
         document.querySelector('body').style.backgroundColor = '#60b347';
-        document.querySelector('.footer-Name').textContent = 'you’re a genius😱😱😱😱'
-        document.querySelector('.footer-Name').style.fontSize = '25px'
+        document.querySelector('.footer-Name').textContent = 'you’re a genius😱😱😱😱';
+        document.querySelector('.footer-Name').style.fontSize = '23px';
         document.querySelector('.number').style.width = '30rem';
 
         if (score > highScore){
@@ -52,6 +52,3 @@ document.querySelector('.again').addEventListener('click', function (){
     document.querySelector('body').style.background = '#222';
     document.querySelector('.number').style.width = '15rem';
 });
-
-
-
